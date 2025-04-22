@@ -26,14 +26,24 @@ export default function Home() {
         className={`${styles.page} ${geistSans.variable} ${geistMono.variable}`}
       >
         <main className={styles.main}>
+          <div className={styles.container}>
           <Image
-            className={styles.logo}
-            src="/next.svg"
+            
+            src="/carlos1.png"
             alt="Next.js logo"
-            width={180}
-            height={38}
-            priority
+            width={200}
+            height={200}
+            
           />
+          <Image
+          
+            src="/carlos2.png"
+            alt="Next.js logo"
+            width={200}
+            height={200}
+           
+          />
+          </div>
           <ol>
             <li>
               Get started by editing <code>src/pages/index.tsx</code>.
@@ -55,6 +65,7 @@ export default function Home() {
                 width={20}
                 height={20}
               />
+              
               Deploy now
             </a>
             <a
